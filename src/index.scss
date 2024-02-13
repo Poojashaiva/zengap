@@ -1,0 +1,228 @@
+
+@import 'react-phone-number-input/style.css'; //Country selctor 
+
+//Dropdown
+// .main-header .main-header-right {
+//   .nav-link.dropdown-toggle {
+//     &:after {
+//       display: none;
+//     }
+//   }
+// }
+
+.toggle-before-none {
+  &:after {
+    display: none;
+  }
+}
+
+///Nav-toggle in small screen
+///
+.navbar-expand .navbar-toggler {
+  display: block;
+}
+
+.collapse:not(.show) {
+  display: none !important;
+}
+
+@media (min-width: 992px) {
+  .main-header.hor-header.sticky.sticky-pin {
+    position: relative;
+  }
+}
+
+[data-layout='vertical'] {
+  .app-sidebar .scrollbar-container {
+    height: 900px;
+  }
+}
+
+@media (min-width: 992px) {
+  .main-header.hor-header.sticky.sticky-pin {
+    position: relative;
+  }
+}
+
+[dir="rtl"] {
+  .me-auto {
+    margin-left: auto !important;
+    margin-right: inherit !important;
+  }
+}
+
+// calendar
+// .fc .fc-scrollgrid-section-liquid>td,
+// .fc-scrollgrid-sync-table{
+//   height: 80vh !important;
+// }
+
+//modal 
+.modal-header .btn-close{
+  position: absolute;
+  inset-inline-end:  16px;
+  inset-block-start:  16px;
+  &::after{
+    content: 'x';
+    font-size: 1.25rem;
+  }
+  &:hover{
+    color: inherit;
+  }
+}
+
+@media (min-width: 578px ) {
+  .horwizard{
+    display: block;
+  }
+}
+.rmsc .select-item:hover {
+  background: rgb(var(--background-rgb)) !important;
+}
+.rmsc .search {
+  border-bottom: 1px solid rgb(var(--background-rgb)) !important;
+}
+
+.general-faq-container .accordion-button,
+.privacy-faq-container .accordion-button{
+  background-color: transparent !important;
+}
+.dropdown-toggle.no-caret::after{
+  display: none;
+}
+
+@media (min-width:'992px'){
+  [data-layout="horizontal"] .horizontal-main {
+    .ScrollbarsCustom{
+      height: 50px !important;
+    }
+    .ScrollbarsCustom-Scroller, .ScrollbarsCustom-Wrapper{
+      overflow: visible !important;
+    }
+  }
+}
+.todo-task-tabs{
+  .nav-item{
+    margin: 1rem !important;
+    button{
+    border-radius: 0.3rem !important;
+    }
+  }
+}
+.mantine-Menu-dropdown{
+  span{
+    background-color: transparent !important;
+  }
+}
+.mantine-Menu-dropdown{
+  button{
+    background-color: transparent !important;
+  }
+}
+.card-body+.card-body {
+  border-inline-start: 1px solid var(--border) !important;
+}
+.rmsc {
+  --rmsc-main: transparent;
+  --rmsc-border: #e9edf6 !important;
+  --rmsc-bg: #fff !important;
+  --rmsc-main: #000;
+  --rmsc-selected: rgb(var(--primary-rgb),0.2) !important;
+  --rmsc-hover: #845adf1a !important;
+}
+#wizard3{
+  .p-3{
+    border-inline-start: 1px solid var(--border) !important;
+  }
+}
+.Select2__option.Select2__option--is-focused:hover {
+  background-color: rgb(var(--primary-rgb),0.2) !important;
+}
+.Select2__option.Select2__option--is-focused {
+  background-color: rgb(var(--primary-rgb),0.2) !important;
+}
+// [data-position=scrollable] .main-header.side-header {
+//   backdrop-filter: blur(5px) !important;
+//   z-index: 999 !important;
+// }
+
+.result-container-main{
+  .dropdown-toggle::after{
+    display: none !important;
+  }
+}
+.data-table table thead tr, .data-table table tbody tr {
+  background-color: transparent;
+} 
+.scrollable-modal {
+  .modal-body {
+    height: 37rem;
+    overflow: scroll;
+  }
+}
+@media (max-width:991.98px) {
+  .apexcharts-datalabels {
+    display: none;
+  }
+}
+.fc-daygrid-day-frame.fc-scrollgrid-sync-inner{
+  padding: 15px;
+}
+.fc .fc-scrollgrid-section-liquid {
+  height: 500px;
+}
+.slick-prev:before, .slick-next:before {
+  font-size: 30px !important;
+}
+.slick-prev {
+  left: -33px;
+}
+
+.mycustom.form-select {
+  --bs-form-select-bg-img: url(https://img.icons8.com/ios/25/FFFFFF/expand-arrow--v1.png);}
+
+.contact-scroll{
+  .ScrollbarsCustom-Track{
+    display: none !important;
+  }
+}
+
+.dropstart .no-caret-before::before {
+  display: none;
+}
+
+[data-width='boxed'][data-layout="horizontal"]{
+  .lastElement{
+    right: 10px;
+  }
+}
+
+///styles/////
+.mantine-vl6xmj, .mantine-InputWrapper-label, .mantine-Button-root, .mantine-Input-input, .mantine-Alert-root, .mantine-Menu-dropdown, .mantine-Menu-divider {
+  background-color: rgb(var(--background-rgb)) !important;
+}
+
+.sub-slide.is-expanded .sub-angle {
+  transform: rotate(-180deg);
+}
+.mantine-unuhuj{
+  .mantine-UnstyledButton-root{
+    svg{
+      transform: rotate(-180deg);
+    }
+  }
+}
+.btn-info {
+  color: #fff !important;
+}
+
+[data-position='scrollable']{
+  .ScrollbarsCustom-Thumb{
+    display: none;
+  }
+}
+
+
+[data-layout=horizontal] .horizontal-main .slide .slide-menu, [data-layout=horizontal] .horizontal-main .slide .sub-slide-menu{
+  position: relative !important;
+}

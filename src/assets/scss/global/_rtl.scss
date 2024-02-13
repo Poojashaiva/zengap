@@ -1,0 +1,37 @@
+[dir="rtl"] {
+
+  .apexcharts-tooltip-marker {
+    margin-left: 10px !important;
+    margin-right: 0px !important;
+  }
+
+  .apexcharts-tooltip-text-y-value {
+    margin-left: 0px !important;
+    margin-right: 10px !important;
+  }
+  #treeview1 {
+    .MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium {
+      transform: rotate(180deg);
+    }
+  }
+  #tree3 {
+    .MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium {
+      transform: rotate(180deg);
+    }
+  }
+  .se-btn.se-btn-select.se-btn-tool-font.se-tooltip {
+    .txt {
+      display: inline-flex;
+    }
+  }
+  .se-btn.se-btn-select.se-btn-tool-size.se-tooltip {
+    .txt {
+      display: inline-flex;
+    }
+  }
+  #wizard3 {
+    table {
+      margin-inline-end: 1px;
+    }
+  }
+}

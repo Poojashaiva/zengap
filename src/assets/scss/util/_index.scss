@@ -1,0 +1,103 @@
+  
+@import "./background";
+@import "./border";
+@import "./height";
+@import "./margin";
+@import "./opacity";
+@import "./padding";
+@import "./position";
+@import "./typography";
+@import "./width";
+
+///styles///
+.main-header-notification.show>a::after, .main-header-message.show>a::after {
+    display: none !important;
+}
+.ScrollbarsCustom-Thumb{
+    width: 5px !important;
+    background-color: var(--primary02) !important;
+}
+.ScrollbarsCustom-Track {
+    width: 5px !important;
+}
+.card-title{
+    margin-bottom: 0;
+    align-self: center;
+}
+.message-list{
+    li:not(:last-child) {
+        margin-bottom: 11px !important;
+    }
+}
+.happy-clients-section{
+        .swiper-pagination-bullet-active{
+            background-color: white !important;
+         }
+    .swiper-button-prev{
+        width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding: 20px;
+    inset-block-start: 50%;
+    transform: translateY(-50%);
+    opacity: .8;
+    z-index: 0;
+    background-color: white;
+    }
+    .swiper-button-next{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        padding: 20px;
+        inset-block-start: 50%;
+        transform: translateY(-50%);
+        opacity: .8;
+        z-index: 0;
+        background-color: white;
+    }
+    .swiper-button-prev:after{
+      font-size: 18px !important;
+      font-weight: 700 !important;
+    }
+    .swiper-button-next:after {
+        font-size: 18px !important;
+        font-weight: 700 !important;
+    }
+}
+[dir="rtl"]{
+.ql-snow .ql-picker:not(.ql-color-picker):not(.ql-icon-picker) svg {
+  inset-inline-start: 93px !important;  
+}
+}
+.navbar-expand>.container-fluid {
+   padding-inline-start: 0.75rem;
+   padding-inline-end: 0.75rem;
+}
+.main-profile-menu>button::after,.main-header-shop>a::after,.main-header-message>a::after,.main-header-notification>a::after{
+  display: none !important;
+}
+#country-selector{
+    .modal-header .btn-close::after {
+            display: none !important;
+    }
+    
+} 
+.mantine-InputWrapper-root.mantine-TextInput-root {
+  border:0 !important;
+}
+// [dir="rtl"]{
+//     .mantine-UnstyledButton-root{
+//         rotate: 180deg;
+//     }
+//     .mantine-UnstyledButton-root{
+//         rotate: 180deg;
+//     }
+// }
+.profile-section-icons{
+   .dropdown-menu{
+    .dropdown-item{
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+   }
+}
